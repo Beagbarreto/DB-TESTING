@@ -25,13 +25,13 @@ var allReadingQuestions = [{
   },
   {
     question: "In paragraph 6, the author notes that “the use of biometrics raises ethical questions concerning privacy. Which of the following situations could be used as an example to illustrate this point?",
-    choices:["A thief steals a personal computer with password management software and gains access to private email accounts, credit card numbers, and bank statements.", "An employee at a company uses a voice recognition system to log in to his computer, only to be called away by his boss. While he is away from the computer but still logged in, another employee snoops on his computer and reads personal email correspondence.", "A computer hacker gains access to a system that uses SSO software by cracking the password, thus gaining private access to all linked accounts.", "A company that employs fingerprint identification security software turns over its database of fingerprints to the local police department when a violent crime occurs on its grounds.", "Even when a person is on password-protected websites, an internet browser tracks the person’s internet use and collects information in order to tailor advertisements to his or her interests."],
-    correctAnswer: 3
+    choices:["A thief steals a personal computer with password management software and gains access to private email accounts, credit card numbers, and bank statements.", "An employee at a company uses a voice recognition system to log in to his computer, only to be called away by his boss. While he is away from the computer but still logged in, another employee snoops on his computer and reads personal email correspondence.", "A computer hacker gains access to a system that uses SSO software by cracking the password, thus gaining private access to all linked accounts.", "A company that employs fingerprint identification security software turns over its database of fingerprints to the local police department when a violent crime occurs on its grounds.", "Even when a person is on password-protected websites, an internet browser tracks the person’s internet use and collects information in order to tailor advertisements to his or her interests."],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   correctAnswer: 3
   },
   {
     question: "The author’s tone in the final paragraph can best be described as",
     choices:["animated", "resigned", "confused", "hopeful", "depressed"],
     correctAnswer: 1
-  }];
+  }
+];
 
   export default dataRead;
