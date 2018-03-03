@@ -39,12 +39,14 @@
     "mongodb": "*",
     "mongoose": "*",
     "mysql": "^2.15.0",
+    "nodemon": "^1.17.1",
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",
     "passport-strategy": "^1.0.0",
     "passport-ubuntu": "^0.2.0",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0"
   }
 }

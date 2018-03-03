@@ -11,10 +11,8 @@ CREATE TABLE username (
   PRIMARY KEY (userID)
 );
 
-CREATE TABLE registration (
+CREATE TABLE Profile (
   studentID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  email char (50) NOT NULL,
-  password char (50) NOT NULL,
   name char(25) NOT NULL,
   last_name char(25) NOT NULL,
   nickname char(15) Not NULL,

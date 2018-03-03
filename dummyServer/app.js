@@ -49,10 +49,21 @@ app.get('/assesments', function(req, res){
     }
   })
 });
-
 /*app.post('/assesments', function(req, res){
 
 })*/
+
+app.get('/profile', function(req, res){
+  database.selectProfile((err, results) => {
+    if(err){
+      console.log('error hitting profile db');
+      res.sendStatus(500);
+    }else{
+      res.send(200).json(results);
+    }
+  }
+)
+});
 
 
 
